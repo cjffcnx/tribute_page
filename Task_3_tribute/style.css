@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    background-color:black;
+    scroll-behavior: smooth 5s ease in out;
+}
+
+.container{
+    max-width:90rem;
+    margin:2rem auto;
+padding:0 2rem;
+}
+
+.header{
+    background-color: #1a1a1a;
+    padding:2rem;
+    margin:1rem 0;
+    text-align:Center;
+}
+
+.header>.title{
+    margin-bottom:1rem;
+    
+
+}
+
+.tribute{
+    display:grid;
+    grid-template-columns:2fr,1fr;
+    max-width:78rem;
+margin:0 auto;
+background:white;
+color:black;
+align-items:center;
+padding:0 0 0 1rem;
+display: flex;
+justify-content: center;
+align-items:center;
+border-top-left-radius: 5%;
+border-bottom-right-radius: 5%;
+
+border: 20px solid transparent; /* Ensure border-width is defined */
+border-image: url('https://th.bing.com/th/id/R.813bd1927f68c4e782979f536f4cd8df?rik=FvVxY0wNlF%2bv3A&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fflowers-borders-png-floral-border-png-pesquisa-google-1280.png&ehk=idA41y4gzLmsf2r9bEPhDGueoiaNGG4k1zgJey%2botNE%3d&risl=&pid=ImgRaw&r=0') 30 round;
+
+
+}
+
+
+.tribute img{
+    max-width:100%;
+ position:relative;
+
+   
+    
+}
+
+.bio,.earlylife{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer p {
+      font-size: 12px;
+    }
+  }
+
+  /* Navbar container */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Logo */
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Navbar items */
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar ul li {
+    position: relative;
+    margin: 0 15px;
+  }
+
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+
+  /* Hover effect for dropdown */
+  .navbar ul li:hover > a {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+
+  /* Dropdown menu */
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    border-radius: 4px;
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown a {
+    padding: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .dropdown a:hover {
+    background-color: #575757;
+  }
+
+  /* Show dropdown on hover */
+  .navbar ul li:hover .dropdown {
+    display: block;
+  }
+
+  /* Responsive for smaller screens */
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .navbar ul li {
+      margin-bottom: 10px;
+    }
+
+    .dropdown {
+      position: static;
+    }
+  }
